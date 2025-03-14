@@ -35,7 +35,7 @@ export default function Page({ data }) {
 
     <SearchComponent/>
   
-    <div className="cards flex flex-wrap gap-8 justify-center items-center">
+    <div className="cards flex flex-wrap gap-8 justify-center items-center my-6">
       {content?.map((item, i) => {
         return (
           <Card

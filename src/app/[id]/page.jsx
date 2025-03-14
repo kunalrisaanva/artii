@@ -38,7 +38,7 @@ const Page = ({ params, searchParams }) => {
       
       <div className="pt-2 px-4 ">
         <h1 className="text-2xl py-2 font-semibold text-gray-800">
-          {mainData[0].title}
+          {mainData[0]?.title}
         </h1>
 
         <ButtonLang currentLang={lang} />
